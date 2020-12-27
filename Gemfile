@@ -35,7 +35,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.8'
   gem 'capybara', '~> 3.7'
   gem 'rack-test', '~> 1.1'
-  gem 'webdrivers'
+#  gem 'webdrivers'
+  gem 'selenium-webdriver'
 end
 
 group :development do
