@@ -24,4 +24,5 @@ COPY . /usr/src/app/
 #Should only ever have to run this once!
 #RUN bin/rails webpacker:install
 
+ENTRYPOINT ["./docker-entrypoint.sh"]
 CMD ["bin/rails", "s", "-b", "0.0.0.0"]
