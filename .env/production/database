@@ -1,0 +1,3 @@
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=udpip666
+POSTGRES_DB=myapp_production
