@@ -18,6 +18,7 @@ RUN bundle install
 
 # Yarn
 COPY package.json /usr/src/app/
+COPY yarn.lock /usr/src/app/
 RUN yarn install --check-files
 
 COPY . /usr/src/app/
